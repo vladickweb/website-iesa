@@ -1,0 +1,33 @@
+/*
+PALETA DE COLORES
+#57A63B
+#003100
+#2a6478
+#F6EDD9
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Mulish', sans-serif;
+}
+
+.margin-nav {
+	margin-top: 150px;
+}
+
+.navbar {
+	background-color: #f6edd9 !important;
+	font-size: 1.3rem;
+}
+
+h1 {
+	color: #003100;
+}
+
+nav ul {
+	margin-right: 3rem;
+}

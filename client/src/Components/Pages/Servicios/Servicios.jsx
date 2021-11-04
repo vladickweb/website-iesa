@@ -2,8 +2,15 @@ import React from 'react'
 
 export default function Servicios() {
     return (
-        <div>
-            <h1>Servicios</h1>
+        <div className=''>
+            <h1>Nuestros servicios</h1>
+
+            <ul>
+                <li>Reparación de transformadores</li>
+                <li>Mantenimiento</li>
+                <li>Filtrado</li>
+                <li>Alquiler de transformadores</li>
+            </ul>
         </div>
     )
 }
