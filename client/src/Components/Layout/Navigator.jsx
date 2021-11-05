@@ -1,32 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logoIesa from '../../assets/logo-IESA.png'
+import logoIesa from '../../assets/logo-IESA-modificado.png'
 import './layout.css'
 
 export default function Navigator() {
 	return (
 		<div>
-			<nav className='navbar navbar-expand-lg navbar-light bg-light fixed-top.contact {
-    height: 100vh;
-    max-height: 100vh;
-}
-
-.svg-contact {
-    position: absolute;
-    z-index: -1;
-    height: 40vh;
-    max-width: 100vw;
-    background-color: red;
-}
-
-.svg-contact-2 {
-    z-index: -1;
-    height: 60vh;
-}'>
-			
+			<nav className='navbar navbar-expand-lg navbar-light bg-light'>
 				<div className='container-fluid'>
 					<Link to='/' className='navbar-brand' href='#'>
-						<img className="logo-navbar" src={logoIesa} alt="Logo IESA" />
+						<img className='logo-navbar' src={logoIesa} alt='Logo IESA' />
 					</Link>
 					<button
 						className='navbar-toggler'
@@ -56,13 +39,12 @@ export default function Navigator() {
 									¿Quienes somos?
 								</Link>
 							</li>
-                            <li className='nav-item'>
+							<li className='nav-item'>
 								<Link to='/contacto' className='nav-link active text-green' href='#'>
 									Contacto
 								</Link>
 							</li>
 						</ul>
-				
 					</div>
 				</div>
 			</nav>
